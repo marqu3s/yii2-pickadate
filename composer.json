@@ -1,0 +1,25 @@
+{
+  "name": "fourteenmeister/yii2-pickadate",
+  "description": "The mobile-friendly, responsive, and lightweight jQuery date & time input picker.",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "extension"
+  ],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "fourteenmeister",
+      "email": "fourteenmeister@gmail.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "2.*",
+    "bower-asset/pickadate": "3.5.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "fourteenmeister\\extensions\\": ""
+    }
+  }
+}
