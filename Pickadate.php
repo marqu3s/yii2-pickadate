@@ -66,7 +66,7 @@ class Pickadate extends \yii\widgets\InputWidget
     {
         Html::addCssClass($this->options, 'field');
         if ($this->hasModel()) {
-            if($this->autoPlaceholder && !$this->options['placeholder']) {
+            if ($this->autoPlaceholder && !isset($this->options['placeholder'])) {
                 $this->options['placeholder'] = $this->model->getAttributeLabel($this->attribute);
             }
             $input = Html::activeTextInput($this->model, $this->attribute, $this->options);
