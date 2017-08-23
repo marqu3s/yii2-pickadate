@@ -7,7 +7,7 @@ use yii\web\AssetBundle;
 class PickadateAsset extends AssetBundle
 {
 
-    public $sourcePath = '@vendor/bower/pickadate/lib';
+    public $sourcePath = '@bower/pickadate/lib';
 
     public $depends = [
         'yii\web\JqueryAsset'
